@@ -1,0 +1,14 @@
+.navbar {
+    border-radius: 0px;
+}
+
+.footer-bg {
+    background-color: black;
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+.footer-bg p {
+    color: grey;
+}
