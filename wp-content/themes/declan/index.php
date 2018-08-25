@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 
 <section class="container">
-    <h4>This is the body content section</h4>
     <div class="row">
         <?php
         if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
