@@ -12,3 +12,9 @@
 .footer-bg p {
     color: grey;
 }
+
+.post-block {
+    background-color: grey;
+    /*height: 100px;*/
+   margin-bottom: 40px;
+}
