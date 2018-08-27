@@ -2,13 +2,17 @@
 
 <section class="container">
     <div class="row">
+        <h2>This is the page.php page</h2>
         <?php
+        if (is_page( 'Blog' )) :
+            echo "The page you just clicked on is the blog page";
+        else :
         if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
         <div class="col-md-6 col-md-offset-3">
             
                 <?php the_content(); ?>
         </div>
-        <?php endwhile; endif; ?>
+        <?php endwhile; endif; endif; ?>
     </div>
 </section>
 

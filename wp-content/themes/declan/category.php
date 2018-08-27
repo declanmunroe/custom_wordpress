@@ -2,7 +2,7 @@
 
 <section class="container">
     <div class="row">
-        <h4>This is the category page which uses the category.php file in my custom theme</h4>
+        <h2>This is the category.php page</h2>
         <?php
         if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
         <div class="col-md-6 col-md-offset-3">
