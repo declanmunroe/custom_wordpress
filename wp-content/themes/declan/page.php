@@ -8,7 +8,7 @@
             echo "The page you just clicked on is the blog page";
         else :
         if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-        <div class="col-md-6 col-md-offset-3">
+        <div class="col-sm-12">
             
                 <?php the_content(); ?>
         </div>
