@@ -6,7 +6,7 @@ get_header(); ?>
 
 <div class="container">
     <div class="row">
-        <h2>This is the training_page.php page which is a template running off training_page.php</h2>
+        <h2 style="color: black;">This is the training_page.php page which is a template running off training_page.php</h2>
 
             <div class="col-md-9 col-sm-8">
                     <?php
